@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Rosa · un pequeño jardín</title>
+<style>
+*{box-sizing:border-box}html,body{margin:0;min-height:100%;background:#090f10;color:#ecede5;font-family:Arial,sans-serif}body{height:100svh;overflow:hidden;background:radial-gradient(ellipse at 55% 38%,#263a32 0%,#131e1c 35%,#090e10 76%)}main{height:100%;position:relative}.intro{position:absolute;top:20%;left:8%;z-index:2;pointer-events:none}h1{font-family:Georgia,serif;font-weight:normal;font-size:clamp(62px,8vw,128px);letter-spacing:-5px;margin:0;line-height:.95}h1 em{font-weight:normal;color:#c9a6a3}canvas{display:block;position:absolute;inset:0;width:100%;height:100%;touch-action:none}.controls{position:absolute;right:5%;bottom:40px;z-index:3;width:240px;background:#101b19ba;border:1px solid #52625150;padding:20px 24px;border-radius:3px;backdrop-filter:blur(14px)}.label{display:block;font-size:10px;letter-spacing:2px;text-transform:uppercase;color:#b7c3b3}input{width:100%;accent-color:#d1a3ac;margin:18px 0 4px;cursor:pointer}input:focus-visible{outline:2px solid #edb2bf;outline-offset:5px}@media(max-width:700px){.intro{top:11%;left:7%}h1{font-size:64px;letter-spacing:-3px}.controls{bottom:22px;right:6%;width:205px;padding:17px}}
+</style>
+</head>
+<body><main>
+<section class="intro"><h1>La <em>rosa.</em></h1></section>
+<canvas id="garden" role="img" aria-label="Planta de rosa roja con pétalos volumétricos, hojas con nervaduras, espinas y gotas de rocío, meciéndose con el viento."></canvas>
+<section class="controls" aria-label="Control de floración"><label class="label" for="bloom">Aumentar floración</label><input id="bloom" type="range" min="0" max="100" value="85" aria-label="Aumentar floración"></section>
+</main>
+<script src="rosa.js"></script></body></html>
